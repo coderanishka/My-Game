@@ -47,6 +47,9 @@ function setup(){
   hook.addImage(hookImg);
   hook.scale = 0.7;
   hook.setCollider("circle",0,0,90)
+  
+  line1 = createSprite(width,height/4,width,5);
+  line1.visible = false;
 // small fish
    FishLGroup = new Group();
    FishRGroup = new Group();
@@ -78,7 +81,7 @@ function draw(){
   edges=createEdgeSprites();
 
   hook.collide(edges[3]||edges[1]||edges[2]||edges[4]);
-
+  hook.collide(line);
   drawSprites();
   
 
