@@ -30,7 +30,7 @@ function preload(){
   trash4Img = loadImage("assets2/trash3.png");
 
   boatImg = loadImage("assets2/boat.png");
-  hookImg = loadImage("assets2/clawRing.png");
+  hookImg = loadImage("assets2/hook.png");
 
   bgImg = loadImage("assets2/bg.jpg");
 
